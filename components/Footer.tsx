@@ -30,17 +30,17 @@ const Footer = () => {
             <div className="max-w-screen-xl mx-auto flex justify-between items-center gap-4 px-4">
                 {/* Left Side */}
                 <div className="hidden md:flex items-center gap-4 text-neutral-500 whitespace-nowrap">
-                    <p>Powered by AEITA</p>
+                    <p>Powered by Gemini 2.5 Flash Image Preview</p>
                     <span className="text-neutral-700" aria-hidden="true">|</span>
                     <p>
-                        Created for{' '}
+                        Created by{' '}
                         <a
-                            href="https://www.aeita.com.br/pages/infinitas"
+                            href="https://x.com/ammaar"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-neutral-400 hover:text-yellow-400 transition-colors duration-200"
                         >
-                            INFINITAS
+                            @ammaar
                         </a>
                     </p>
                 </div>
@@ -65,6 +65,24 @@ const Footer = () => {
                         </div>
                     </div>
 
+                    <div className="flex items-center gap-4 sm:gap-6">
+                        <a
+                            href="https://aistudio.google.com/apps"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-permanent-marker text-sm sm:text-base text-center text-black bg-yellow-400 py-2 px-4 rounded-sm transform transition-transform duration-200 hover:scale-105 hover:-rotate-2 hover:bg-yellow-300 shadow-[1px_1px_0px_1px_rgba(0,0,0,0.2)] whitespace-nowrap"
+                        >
+                            Apps on AI Studio
+                        </a>
+                        <a
+                            href="https://gemini.google.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-permanent-marker text-sm sm:text-base text-center text-white bg-white/10 backdrop-blur-sm border border-white/50 py-2 px-4 rounded-sm transform transition-transform duration-200 hover:scale-105 hover:rotate-2 hover:bg-white hover:text-black whitespace-nowrap"
+                        >
+                            Chat with Gemini
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
